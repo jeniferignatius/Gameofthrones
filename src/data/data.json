@@ -1,0 +1,84 @@
+{
+    "Header": {
+
+        "title": "Our Princess Fiona",
+        "paragraph": "This website contains all details about Fiona and her family"
+    },
+
+    "About": {
+        "paragraph": "This website contains all details about fiona and her family and friends.",
+        "Why": [
+            "About her birthdays",
+            "and about her friends",
+            "schools she had studied",
+            "and her family members"
+        ],
+        "Why2": [
+            "and more in the future"
+        ]
+    },
+
+    "Birthdays": [{
+        "icon": "fa fa-comments-o",
+        "title": "First Birthday",
+        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+        "icon": "fa fa-bullhorn",
+        "title": "Second Birthday",
+        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+        "icon": "fa fa-group",
+        "title": "Third Birthday",
+        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+        "icon": "fa fa-magic",
+        "title": "Fourth Birthday",
+        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    }
+],
+"Family": [{
+    "img": "img/igni.jpg",
+    "name": "Ignatius",
+     "job": "Father"
+},
+{
+    "img": "img/jeni.jpg",
+    "name": "Jenifer",
+    "job": "Mother"
+}
+],
+"Friends": [{
+    "img": "img/igni.jpg",
+    "name": "Ignatius",
+     "job": "Father"
+},
+{
+    "img": "img/jeni.jpg",
+    "name": "Jenifer",
+    "job": "Mother"
+}
+],
+"Testimonials": [{
+    "img": "img/igni.jpg",
+    "text": "\"She is our cute princess and We loved her so much.\"",
+    "name": "Appa"
+},
+{
+    "img": "img/jeni.jpg",
+    "text": "\"She is our cute princess and We loved her so much. \"",
+    "name": "Amma"
+}
+],
+"Contact": {
+    "address": "Kaskilaaksontie ",
+    "phone": "358 401654765",
+    "email": "fiona.ignatius@gmail.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+}
+
+}

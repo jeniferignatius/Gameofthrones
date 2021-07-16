@@ -10,7 +10,9 @@ import { Friends } from './components/friends';
 import { Testimonials } from './components/testimonials';
 import { Contact } from './components/contact';
 import { Gallery } from './components/gallery';
+import { Allbirthdays } from './pages/allbirthdays.jsx';
 import JsonData from './data/data.json';
+
 
 
 const App = () => {

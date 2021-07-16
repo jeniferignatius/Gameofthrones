@@ -19,7 +19,7 @@
     },
 
     "Birthdays": [{
-        "icon": "fa fa-comments-o",
+        "icon": "fa fa-child",
         "title": "First Birthday",
         "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     },
@@ -29,7 +29,7 @@
         "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     },
     {
-        "icon": "fa fa-group",
+        "icon": "fa fa-child",
         "title": "Third Birthday",
         "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     },
@@ -77,7 +77,7 @@
     "phone": "358 401654765",
     "email": "fiona.ignatius@gmail.com",
     "facebook": "fb.com",
-    "twitter": "twitter.com",
+    "twitter": "instagram.com",
     "youtube": "youtube.com"
 }
 

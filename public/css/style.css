@@ -239,6 +239,11 @@ header .intro-text {
 	background: linear-gradient(to right, rgb(199, 46, 72) 0%, pink 100%);
 	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
 }
+#birthdays p {
+	line-height: 24px;
+	margin: 30px 0;
+	color:black;
+}
 /* About Section */
 #about {
 	padding: 100px 0;

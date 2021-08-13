@@ -21,13 +21,13 @@
     
 "Card": [{
     "img": "img/card.jpg",
-    "text": "\"She is our cute princess and We loved her so much.\"",
-    "name": "Appa"
+    "text": "\"game card.\"",
+    "name": ""
 },
 {
     "img": "img/card.jpg",
-    "text": "\"She is our cute princess and We loved her so much. \"",
-    "name": "Amma"
+    "text": "\"game. \"",
+    "name": ""
 }
 ],
 "Contact": {

@@ -2,7 +2,7 @@
     "Header": {
 
         "title": "The Gathering Comprehensive Rules",
-        "paragraph": "This website contains all details about Fiona and her family"
+        "paragraph": "This website contains all details about rules"
     },
 
     "About": {
@@ -18,56 +18,14 @@
         ]
     },
 
-    "Birthdays": [{
-        "icon": "fa fa-child",
-        "title": "First Birthday",
-        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-        "icon": "fa fa-bullhorn",
-        "title": "Second Birthday",
-        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-        "icon": "fa fa-child",
-        "title": "Third Birthday",
-        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-        "icon": "fa fa-magic",
-        "title": "Fourth Birthday",
-        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    }
-],
-"Family": [{
-    "img": "img/igni.jpg",
-    "name": "Ignatius",
-     "job": "Father"
-},
-{
-    "img": "img/jeni.jpg",
-    "name": "Jenifer",
-    "job": "Mother"
-}
-],
-"Friends": [{
-    "img": "img/igni.jpg",
-    "name": "Ignatius",
-     "job": "Father"
-},
-{
-    "img": "img/jeni.jpg",
-    "name": "Jenifer",
-    "job": "Mother"
-}
-],
-"Partsofcard": [{
-    "img": "img/logo.jpg",
+    
+"Card": [{
+    "img": "img/card.jpg",
     "text": "\"She is our cute princess and We loved her so much.\"",
     "name": "Appa"
 },
 {
-    "img": "img/jeni.jpg",
+    "img": "img/card.jpg",
     "text": "\"She is our cute princess and We loved her so much. \"",
     "name": "Amma"
 }

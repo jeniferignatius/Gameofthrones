@@ -4,7 +4,7 @@ export const Header = (props) => {
         <div className='intro'>
           <div className='overlay'>
           <img
-                src='img/gamepic.jpg'
+                src='img/image3.jpg'
                 className='img-responsive'
                 alt='game logo'
                       />

@@ -80,7 +80,7 @@ hr {
 	font-weight: 700;
 	color: red;
 	text-transform: uppercase;
-	width: 200px;
+	width: 100px;
 }
 img{
 	width: 1000vh;
@@ -458,6 +458,10 @@ header .intro-text {
 .partsofcard-image {
 	float: left;
 	margin-right: 15px;
+}
+.partsofcard-mainimage {
+	width: 10px;
+	height: 10px;
 }
 .partsofcard-image, .partsofcard-image img {
 	display: block;

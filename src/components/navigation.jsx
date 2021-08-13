@@ -17,7 +17,7 @@ export const Navigation = (props) => {
             </button>
             <a className='navbar-brand page-scroll' href='#page-top'>
             <img
-                src='img/logo.jpg'
+                src='img/card.jpg'
                 className='img-responsive'
                 alt='game logo'
                       /> 

@@ -10,7 +10,6 @@ import { About } from './components/about';
 import { Partsofcard } from './components/partsofcard';
 import { Contact } from './components/contact';
 import { Gallery } from './components/gallery';
-import { Allbirthdays } from './pages/allbirthdays.jsx';
 import JsonData from './data/data.json';
 
 

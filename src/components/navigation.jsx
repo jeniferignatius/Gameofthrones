@@ -16,7 +16,11 @@ export const Navigation = (props) => {
               <span className='icon-bar'></span>{' '}
             </button>
             <a className='navbar-brand page-scroll' href='#page-top'>
-              Fiona Princess
+            <img
+                src='img/logo.jpg'
+                className='img-responsive'
+                alt='game logo'
+                      /> 
             </a>{' '}
           </div>
   
@@ -26,8 +30,8 @@ export const Navigation = (props) => {
           >
             <ul className='nav navbar-nav navbar-right'>
               <li>
-                <a href='#birthdays' className='page-scroll'>
-                  Birthdays
+                <a href='#concept' className='page-scroll'>
+                  Concepts
                 </a>
               </li>
               <li>
@@ -36,23 +40,13 @@ export const Navigation = (props) => {
                 </a>
               </li>
               <li>
-                <a href='#family' className='page-scroll'>
-                  Family
-                </a>
-              </li>
-              <li>
                 <a href='#portfolio' className='page-scroll'>
-                  Drawings
+                  Gallery
                 </a>
               </li>
               <li>
-                <a href='#testimonials' className='page-scroll'>
-                  Testimonials
-                </a>
-              </li>
-              <li>
-                <a href='#friends' className='page-scroll'>
-                  Friends
+                <a href='#partsofcard' className='page-scroll'>
+                  Parts of Card
                 </a>
               </li>
               <li>

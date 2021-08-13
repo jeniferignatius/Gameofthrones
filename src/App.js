@@ -1,13 +1,13 @@
 //import logo from './logo.svg';
 import './App.css';
 import { useState, useEffect } from 'react';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Navigation } from './components/navigation';
 import { Header } from './components/header';
-import { Birthdays } from './components/birthdays';
+import { Concepts } from './components/concept';
+//import { General } from './pages/general';
 import { About } from './components/about';
-import { Family } from './components/family';
-import { Friends } from './components/friends';
-import { Testimonials } from './components/testimonials';
+import { Partsofcard } from './components/partsofcard';
 import { Contact } from './components/contact';
 import { Gallery } from './components/gallery';
 import { Allbirthdays } from './pages/allbirthdays.jsx';
@@ -23,15 +23,17 @@ const App = () => {
 
   return (
     <div className="App">
+    <Router>
      <Navigation />
      <Header data={landingPageData.Header}/>
-     <Birthdays data={landingPageData.Birthdays} />
-     <Family data={landingPageData.Family} />
+     <Concepts data={landingPageData.Concepts} />
+     <Partsofcard data={landingPageData.Partsofcard} />
+     
      <About data={landingPageData.About} />
      <Gallery />
-     <Friends data={landingPageData.Friends} />
-     <Testimonials data={landingPageData.Testimonials} />
+     
      <Contact data={landingPageData.Contact} />
+    </Router>
     </div>
   );
 }

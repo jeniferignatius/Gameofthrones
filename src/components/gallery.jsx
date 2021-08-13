@@ -3,9 +3,9 @@ export const Gallery = (props) => {
       <div id='portfolio' className='text-center'>
         <div className='container'>
           <div className='section-title'>
-            <h2>Drawings</h2>
+            <h2>Gallery</h2>
             <p>
-              Fiona's beautiful drawings.
+              Game of throne images.
             </p>
           </div>
           <div className='row'>
@@ -15,15 +15,16 @@ export const Gallery = (props) => {
                   <div className='hover-bg'>
                     {' '}
                     <a
-                      href='img/portfolio/drawing1.jpg'
+                      href='img/image1.jpg'
                       title='Project Title'
                       data-lightbox-gallery='gallery1'
                     >
                       <div className='hover-text'>
-                        <h4>Her dad and mom</h4>
+                        <h4>Season 1 of Game of thrones</h4>
+                        <p>Season 1 spans a period of several months on a world where the seasons last for years at a time. The action begins in the unified Seven Kingdoms of Westeros as the long summer ends and winter draws near. Lord Eddard Stark is asked by his old friend, King Robert Baratheon, to serve as the King's Hand following the death of the previous incumbent, Eddard's mentor Jon Arryn. Eddard is reluctant, but receives intelligence suggesting that Jon was murdered. Eddard accepts Robert's offer, planning to use his position and authority to investigate the alleged murder.</p>
                       </div>
                       <img
-                        src='img/portfolio/drawing1.jpg'
+                        src='img/image1.jpg'
                         className='img-responsive'
                         alt='Project Title'
                       />{' '}
@@ -36,15 +37,15 @@ export const Gallery = (props) => {
                   <div className='hover-bg'>
                     {' '}
                     <a
-                      href='img/portfolio/drawing2.jpg'
+                      href='img/image2.jpg'
                       title='Project Title'
                       data-lightbox-gallery='drawing2'
                     >
                       <div className='hover-text'>
-                        <h4>Summer drawing</h4>
+                        <h4>The final episode of Telltale’s Game of Thrones is full of spoilers of some of the choices players had to make.</h4>
                       </div>
                       <img
-                        src='img/portfolio/drawing2.jpg'
+                        src='img/image2.jpg'
                         className='img-responsive'
                         alt='Project Title'
                       />{' '}
@@ -57,15 +58,15 @@ export const Gallery = (props) => {
                   <div className='hover-bg'>
                     {' '}
                     <a
-                      href='img/portfolio/drawing3.jpg'
+                      href='img/image3.jpg'
                       title='Project Title'
                       data-lightbox-gallery='drawing3'
                     >
                       <div className='hover-text'>
-                        <h4>Wall drawing</h4>
+                        <h4>House of the Dragon</h4>
                       </div>
                       <img
-                        src='img/portfolio/drawing3.jpg'
+                        src='img/image3.jpg'
                         className='img-responsive'
                         alt='Project Title'
                       />{' '}
@@ -73,132 +74,9 @@ export const Gallery = (props) => {
                   </div>
                 </div>
               </div>
-              <div className='col-sm-6 col-md-4 col-lg-4'>
-                <div className='portfolio-item'>
-                  <div className='hover-bg'>
-                    {' '}
-                    <a
-                      href='img/portfolio/drawing4.jpg'
-                      title='Project Title'
-                      data-lightbox-gallery='gallery1'
-                    >
-                      <div className='hover-text'>
-                        <h4>She and her granpa</h4>
-                      </div>
-                      <img
-                        src='img/portfolio/drawing4.jpg'
-                        className='img-responsive'
-                        alt='Project Title'
-                      />{' '}
-                    </a>{' '}
-                  </div>
-                </div>
-              </div>
-              <div className='col-sm-6 col-md-4 col-lg-4'>
-                <div className='portfolio-item'>
-                  <div className='hover-bg'>
-                    {' '}
-                    <a
-                      href='img/portfolio/05-large.jpg'
-                      title='Project Title'
-                      data-lightbox-gallery='gallery1'
-                    >
-                      <div className='hover-text'>
-                        <h4>Adipiscing Elit</h4>
-                      </div>
-                      <img
-                        src='img/portfolio/05-small.jpg'
-                        className='img-responsive'
-                        alt='Project Title'
-                      />{' '}
-                    </a>{' '}
-                  </div>
-                </div>
-              </div>
-              <div className='col-sm-6 col-md-4 col-lg-4'>
-                <div className='portfolio-item'>
-                  <div className='hover-bg'>
-                    {' '}
-                    <a
-                      href='img/portfolio/06-large.jpg'
-                      title='Project Title'
-                      data-lightbox-gallery='gallery1'
-                    >
-                      <div className='hover-text'>
-                        <h4>Dolor Sit</h4>
-                      </div>
-                      <img
-                        src='img/portfolio/06-small.jpg'
-                        className='img-responsive'
-                        alt='Project Title'
-                      />{' '}
-                    </a>{' '}
-                  </div>
-                </div>
-              </div>
-              <div className='col-sm-6 col-md-4 col-lg-4'>
-                <div className='portfolio-item'>
-                  <div className='hover-bg'>
-                    {' '}
-                    <a
-                      href='img/portfolio/07-large.jpg'
-                      title='Project Title'
-                      data-lightbox-gallery='gallery1'
-                    >
-                      <div className='hover-text'>
-                        <h4>Dolor Sit</h4>
-                      </div>
-                      <img
-                        src='img/portfolio/07-small.jpg'
-                        className='img-responsive'
-                        alt='Project Title'
-                      />{' '}
-                    </a>{' '}
-                  </div>
-                </div>
-              </div>
-              <div className='col-sm-6 col-md-4 col-lg-4'>
-                <div className='portfolio-item'>
-                  <div className='hover-bg'>
-                    {' '}
-                    <a
-                      href='img/portfolio/08-large.jpg'
-                      title='Project Title'
-                      data-lightbox-gallery='gallery1'
-                    >
-                      <div className='hover-text'>
-                        <h4>Lorem Ipsum</h4>
-                      </div>
-                      <img
-                        src='img/portfolio/08-small.jpg'
-                        className='img-responsive'
-                        alt='Project Title'
-                      />{' '}
-                    </a>{' '}
-                  </div>
-                </div>
-              </div>
-              <div className='col-sm-6 col-md-4 col-lg-4'>
-                <div className='portfolio-item'>
-                  <div className='hover-bg'>
-                    {' '}
-                    <a
-                      href='img/portfolio/09-large.jpg'
-                      title='Project Title'
-                      data-lightbox-gallery='gallery1'
-                    >
-                      <div className='hover-text'>
-                        <h4>Adipiscing Elit</h4>
-                      </div>
-                      <img
-                        src='img/portfolio/09-small.jpg'
-                        className='img-responsive'
-                        alt='Project Title'
-                      />{' '}
-                    </a>{' '}
-                  </div>
-                </div>
-              </div>
+           
+             
+              
             </div>
           </div>
         </div>

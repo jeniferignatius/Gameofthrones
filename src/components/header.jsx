@@ -3,6 +3,11 @@ export const Header = (props) => {
       <header id='header'>
         <div className='intro'>
           <div className='overlay'>
+          <img
+                src='img/gamepic.jpg'
+                className='img-responsive'
+                alt='game logo'
+                      />
             <div className='container'>
               <div className='row'>
                 <div className='col-md-8 col-md-offset-2 intro-text'>

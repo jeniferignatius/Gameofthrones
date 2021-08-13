@@ -1,22 +1,22 @@
-export const Testimonials = (props) => {
+export const Partsofcard = (props) => {
     return (
-      <div id='testimonials'>
+      <div id='partsofcard'>
         <div className='container'>
           <div className='section-title text-center'>
-            <h2>What our family members says about Fiona</h2>
+            <h2>Parts of Card</h2>
           </div>
           <div className='row'>
             {props.data
               ? props.data.map((d, i) => (
                   <div key={`${d.name}-${i}`} className='col-md-4'>
-                    <div className='testimonial'>
-                      <div className='testimonial-image'>
+                    <div className='partsofcard'>
+                      <div className='partsofcard-image'>
                         {' '}
                         <img src={d.img} alt='' />{' '}
                       </div>
-                      <div className='testimonial-content'>
+                      <div className='partsofcard-content'>
                         <p>"{d.text}"</p>
-                        <div className='testimonial-meta'> - {d.name} </div>
+                        <div className='partsofcard-meta'> - {d.name} </div>
                       </div>
                     </div>
                   </div>

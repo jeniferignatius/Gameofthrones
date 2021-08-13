@@ -1,20 +1,20 @@
 {
     "Header": {
 
-        "title": "Our Princess Fiona",
+        "title": "The Gathering Comprehensive Rules",
         "paragraph": "This website contains all details about Fiona and her family"
     },
 
     "About": {
-        "paragraph": "This website contains all details about fiona and her family and friends.",
+        "paragraph": "   Our games seek to harness the boundless energy and imagination of our players. In every pursuit our mission is to inspire a lifetime love of games.",
         "Why": [
-            "About her birthdays",
-            "and about her friends",
-            "schools she had studied",
-            "and her family members"
+            "Creator Content",
+            "Digital Media",
+            "Competitive Play",
+            "Video Games"
         ],
         "Why2": [
-            "and more in the future"
+            "coming soon.."
         ]
     },
 
@@ -61,8 +61,8 @@
     "job": "Mother"
 }
 ],
-"Testimonials": [{
-    "img": "img/igni.jpg",
+"Partsofcard": [{
+    "img": "img/logo.jpg",
     "text": "\"She is our cute princess and We loved her so much.\"",
     "name": "Appa"
 },
@@ -73,9 +73,9 @@
 }
 ],
 "Contact": {
-    "address": "Kaskilaaksontie ",
-    "phone": "358 401654765",
-    "email": "fiona.ignatius@gmail.com",
+    "address": "Helsinki ",
+    "phone": "358 123456",
+    "email": "hello@gmail.com",
     "facebook": "fb.com",
     "twitter": "instagram.com",
     "youtube": "youtube.com"

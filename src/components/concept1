@@ -1,10 +1,17 @@
-
-export const Birthdays = (props) => {
+import { Route, Link } from 'react-router-dom';
+import React, { useState } from 'react';
+import { General } from '../pages/general';
+export const Concepts = (props) => {
+  const [isOpen, setIsOpen] = useState(false);
+ 
+  const togglePopup = () => {
+    setIsOpen(!isOpen);
+  }
     return (
-      <div id='birthdays' className='text-center'>
+      <div id='concept' className='text-center'>
         <div className='container'>
           <div className='col-md-10 col-md-offset-1 section-title'>
-            <h2>Birthdays</h2>
+            <h2>Game Concepts</h2>
           </div>
           <div className='row'>
                
@@ -12,19 +19,32 @@ export const Birthdays = (props) => {
                 <div className='portfolio-item'>
                   <div className='hover-bg'>
                     {' '}
-                    <a
-                      href='img/birthdays/birthday1.jpg'
-                      title='Project Title'
-                      data-lightbox-gallery='drawing2'
-                    >
+                   {isOpen && <General
+                      content={<>
+                      <b className="bold">General</b><br/>
+                      <ul float-left>
+                         <li>1. These Magic rules apply to any Magic game with two or more players, including two-player games and multiplayer games.</li><br/>
+                         <li> 2. To play, each player needs their own deck of traditional Magic cards, small items to represent any tokens and counters, and some way to clearly track life totals.</li><br/>
+                         <li> 3. Some casual variants require additional items, such as specially designated cards, nontraditional Magic cards, and dice. See section 9, “Casual Variants.”</li><br/>
+                         <li> 4. If a deck must contain at least a certain number of cards, that number is referred to as a minimum deck size. There is no maximum deck size for non-Commander decks.</li><br/>
+                         <li> 5. Most Magic tournaments (organized play activities where players compete against other players to win prizes) have additional rules covered in the Magic: The Gathering Tournament Rules (found at WPN.Wizards.com/en/resources/rules-documents). These rules may limit the use of some cards, including barring all cards from some older sets.</li><br/>
+                         <li>  6. Certain promotional cards and cards in the Unglued, Unhinged, and Unstable sets are printed with a silver border. These cards are intended for casual play and may have features and text that aren’t covered by these rules.</li><br/>
+                         <li> 7. To play, each player needs their own deck of traditional Magic cards, small items to represent any tokens and counters, and some way to clearly track life totals.</li><br/>
+                         <li> 8. To play, each player needs their own deck of traditional Magic cards, small items to represent any tokens and counters, and some way to clearly track life totals.</li><br/>
+                         <li> 9. To play, each player needs their own deck of traditional Magic cards, small items to represent any tokens and counters, and some way to clearly track life totals.</li>
+                        </ul> 
+                      </>}
+                       handleClose={togglePopup}
+                      />}
+                     
                       <span>
-                      <i className='fa fa-child'></i>
-                     </span>{' '}
+                      <button className='more' onClick={togglePopup} >
+                      general
+                      </button></span>{' '}
                      <div className='hover-text1'>
-                        <h4>First Birthday</h4>
-                        <p>We celebrated in finland 2016. We went to beach and the dress sent by Raja maama and dheepa athai.Cake bought from shop</p>
+                        <h4>general</h4>
                       </div>
-                    </a>{' '}
+                    {' '}
                   </div>
                 </div>
               </div>
@@ -42,8 +62,7 @@ export const Birthdays = (props) => {
                       <i className='fa fa-child'></i>
                      </span>{' '}
                      <div className='hover-text1'>
-                        <h4>Seocond Birthday</h4>
-                        <p>We celebrated in finland 2017 with her grandparents and the dress sent by her godparents .Cake made from home by her grandma and one more cake from Vidhya</p>
+                        <h4>The Magic Golden Rules</h4>
                       </div>
                     </a>{' '}
                   </div>
@@ -63,8 +82,7 @@ export const Birthdays = (props) => {
                       <i className='fa fa-child'></i>
                      </span>{' '}
                      <div className='hover-text1'>
-                        <h4>Third Birthday</h4>
-                        <p>We celebrated in finland 2018 with her grandparents. Went to ship and the dress bought by her grandparents.Cake made by her mary paatti </p>
+                        <h4>Players</h4>
                       </div>
                     </a>{' '}
                   </div>
@@ -84,8 +102,7 @@ export const Birthdays = (props) => {
                       <i className='fa fa-child'></i>
                      </span>{' '}
                      <div className='hover-text1'>
-                        <h4>Fourth Birthday</h4>
-                        <p>We celebrated in India 2019 with all our relatives and the dress from raja mama and her god parents.Peppa pig Cake bought from shop</p>
+                        <h4>Starting the Game</h4>
                       </div>
                     </a>{' '}
                   </div>
@@ -105,8 +122,7 @@ export const Birthdays = (props) => {
                       <i className='fa fa-child'></i>
                      </span>{' '}
                      <div className='hover-text1'>
-                        <h4>Fifth Birthday</h4>
-                        <p>We celebrated in finland 2020. Dress bought from her grandparents.Cake made by amma</p>
+                        <h4>Ending the Game</h4>
                       </div>
                     </a>{' '}
                   </div>
@@ -126,8 +142,7 @@ export const Birthdays = (props) => {
                       <i className='fa fa-child'></i>
                      </span>{' '}
                      <div className='hover-text1'>
-                        <h4>Sixth Birthday</h4>
-                        <p>We celebrated in finland 2021. Dress bought from her grandparents.Cake made by amma</p>
+                        <h4>Colors</h4>
                       </div>
                     </a>{' '}
                   </div>

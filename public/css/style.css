@@ -78,8 +78,12 @@ hr {
 	font-family: 'Raleway', sans-serif;
 	font-size: 24px;
 	font-weight: 700;
-	color: rgb(199, 46, 72);
+	color: red;
 	text-transform: uppercase;
+	width: 200px;
+}
+img{
+	width: 1000vh;
 }
 #menu.navbar-default .navbar-nav > li > a {
 	font-family: 'Lato', sans-serif;
@@ -98,7 +102,7 @@ hr {
 	bottom: -1px;
 	width: 0;
 	height: 2px;
-	background: linear-gradient(to right, rgb(199, 46, 72) 0%, pink 100%);
+	background: linear-gradient(to right, red 0%, orange 100%);
 	content: "";
 	transition: width 0.2s;
 }
@@ -115,7 +119,7 @@ hr {
 	bottom: -1px !important;
 	width: 100% !important;
 	height: 2px !important;
-	background: linear-gradient(to right, rgb(199, 46, 72) 0%, pink 100%) !important;
+	background: linear-gradient(to right, red 0%, orange 100%) !important;
 	content: "" !important;
 	transition: width 0.2s !important;
 }
@@ -124,10 +128,10 @@ hr {
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
 	background-color: #fff;
-	border-color: rgb(199, 46, 72);
+	border-color: red;
 }
 .navbar-default .navbar-toggle:hover>.icon-bar {
-	background-color: rgb(199, 46, 72);
+	background-color: red;
 }
 .section-title {
 	margin-bottom: 70px;
@@ -141,7 +145,7 @@ hr {
 .section-title h2::after {
 	position: absolute;
 	content: "";
-	background: linear-gradient(to right, pink 0%, rgb(199, 46, 72) 100%);
+	background: linear-gradient(to right, orange 0%, red 100%);
 	height: 4px;
 	width: 60px;
 	bottom: 0;
@@ -155,8 +159,8 @@ hr {
 	font-family: 'Raleway', sans-serif;
 	text-transform: uppercase;
 	color: #fff;
-	background-color: pink;
-	background-image: linear-gradient(to right, pink 0%, rgb(199, 46, 72) 100%);
+	background-color: red;
+	background-image: linear-gradient(to right, orange 0%, red 100%);
 	padding: 14px 34px;
 	letter-spacing: 1px;
 	margin: 0;
@@ -169,7 +173,7 @@ hr {
 .btn-custom:hover, .btn-custom:focus, .btn-custom.focus, .btn-custom:active, .btn-custom.active {
 	color: #fff;
 	background-image: none;
-	background-color: rgb(199, 46, 72);
+	background-color: red(199, 46, 72);
 }
 .btn:active, .btn.active {
 	background-image: none;
@@ -187,7 +191,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	width: 100%;
 	padding: 0;
 	background: url(../img/intro-bg.jpg) center center no-repeat;
-	background-color: pink;
+	background-color: rgba(212, 33, 33, 0.349);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -207,7 +211,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 .intro h1 span {
 	font-weight: 800;
-	color: pink;
+	color: red;
 }
 .intro p {
 	color: #fff;
@@ -222,12 +226,12 @@ header .intro-text {
 	padding-bottom: 200px;
 	text-align: center;
 }
-/* Birthdays Section */
-#birthdays {
+/* Concepts Section */
+#concept {
 	padding: 100px 0;
 	background: #f6f6f6;
 }
-#birthdays i.fa {
+#concept i.fa {
 	font-size: 38px;
 	margin-bottom: 20px;
 	transition: all 0.5s;
@@ -236,14 +240,31 @@ header .intro-text {
 	height: 100px;
 	padding: 30px 0;
 	border-radius: 50%;
-	background: linear-gradient(to right, rgb(199, 46, 72) 0%, pink 100%);
+	background: linear-gradient(to right, red 0%, orange 100%);
 	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
 }
-#birthdays p {
+#concept p {
 	line-height: 24px;
 	margin: 30px 0;
 	color:black;
+	
 }
+#concept .bold {
+	background: linear-gradient(to right, red 0%, orange 100%);
+	margin: 30px 0;
+	color: #fff;
+}
+#concept .more{
+	background: linear-gradient(to right, red 0%, orange 100%);
+	margin: 30px 0;
+	color: #fff;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	font-size: 18px;
+	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
+}
+
 /* About Section */
 #about {
 	padding: 100px 0;
@@ -260,7 +281,7 @@ header .intro-text {
 #about h2::after {
 	position: absolute;
 	content: "";
-	background: linear-gradient(to right, pink 0%, rgb(199, 46, 72)100%);
+	background: linear-gradient(to right, orange 0%, red 100%);
 	height: 4px;
 	width: 60px;
 	bottom: 0;
@@ -296,7 +317,7 @@ header .intro-text {
 /* Family Section */
 #family {
 	padding: 100px 0;
-	background: linear-gradient(to right, rgb(199, 46, 72) 0%, pink 100%);
+	background: linear-gradient(to right, red 0%, pink 100%);
 	color: #fff;
 }
 #family .service-desc {
@@ -320,7 +341,7 @@ header .intro-text {
 	width: 120px;
 	height: 120px;
 	padding: 40px 0;
-	background: linear-gradient(to right, rgb(199, 46, 72) 0%, pink 100%);
+	background: linear-gradient(to right, red 0%, pink 100%);
 	border-radius: 50%;
 	color: #fff;
 	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
@@ -354,7 +375,7 @@ header .intro-text {
 	text-align: center;
 	margin: 0 auto;
 	color: #fff;
-	background: linear-gradient(to right, rgb(199, 46, 72) 0%, pink 100%);
+	background: linear-gradient(to right, red 0%, pink 100%);
 	padding: 30% 0 0 0;
 	height: 100%;
 	width: 100%;
@@ -381,40 +402,79 @@ header .intro-text {
 .hover-bg:hover .hover-text {
 	opacity: 1;
 }
-/* Testimonials Section */
-#testimonials {
+/* Popup style */
+.popup-box {
+	position: fixed;
+	background: #00000050;
+	width: 100%;
+	height: 100vh;
+	top: 0;
+	left: 0;
+  }
+   
+  .box {
+	position: relative;
+	width: 70%;
+	margin: 0 auto;
+	height: auto;
+	max-height: 70vh;
+	margin-top: calc(100vh - 85vh - 20px);
+	background: #fff;
+	border-radius: 4px;
+	padding: 20px;
+	border: 1px solid #999;
+	overflow: auto;
+  }
+   
+  .close-icon {
+	content: 'x';
+	cursor: pointer;
+	position: fixed;
+	right: calc(15% - 30px);
+	top: calc(100vh - 85vh - 33px);
+	background: #ededed;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	line-height: 20px;
+	text-align: center;
+	border: 1px solid #999;
+	font-size: 20px;
+  }
+/* PartsofCard Section */
+#partsofcard {
 	padding: 100px 0;
 	background: #f6f6f6;
 }
-#testimonials i {
+#partsofcard i {
 	color: #e6e6e6;
 	font-size: 32px;
 	margin-bottom: 20px;
 }
-.testimonial {
+.partsofcard {
 	position: relative;
 	padding: 20px;
 }
-.testimonial-image {
+.partsofcard-image {
 	float: left;
 	margin-right: 15px;
 }
-.testimonial-image, .testimonial-image img {
+.partsofcard-image, .partsofcard-image img {
 	display: block;
 	width: 64px;
 	height: 64px;
 	border-radius: 50%;
 }
-.testimonial-content {
+.partsofcard-content {
 	position: relative;
 	overflow: hidden;
 }
-.testimonial-content p {
+.partsofcard-content p {
 	margin-bottom: 0;
 	font-size: 14px;
 	font-style: italic;
 }
-.testimonial-meta {
+.partsofcard-meta {
 	margin-top: 10px;
 	font-size: 15px;
 	font-weight: 600;
@@ -441,7 +501,7 @@ header .intro-text {
 /* Contact Section */
 #contact {
 	padding: 100px 0 60px 0;
-	background: linear-gradient(to right, rgb(199, 46, 72)0%, pink 100%);
+	background: linear-gradient(to right, red 0%, orange 100%);
 	color: rgba(255,255,255,.75);
 }
 #contact .section-title {
@@ -476,7 +536,7 @@ header .intro-text {
 	padding-top: 20px;
 }
 #contact .text-danger {
-	color: #cc0033;
+	color: red;
 	text-align: left;
 }
 #contact .btn-custom {
@@ -485,7 +545,7 @@ header .intro-text {
 	border: 2px solid #fff;
 }
 #contact .btn-custom:hover {
-	color: rgb(199, 46, 72);
+	color: red;
 	background: #fff;
 }
 label {
@@ -556,7 +616,7 @@ color: #777;
 	height: 48px;
 	padding: 12px 0;
 	border: 2px solid #fff;
-	color: rgb(158, 37, 37);
+	color: red;
 	border-radius: 50%;
 	transition: all 0.3s;
 }
@@ -574,7 +634,7 @@ color: #777;
 	font-size: 14px;
 }
 #footer a {
-	color: pink;
+	color: red;
 }
 #footer a:hover {
 	border-bottom: 2px solid #608dfd;

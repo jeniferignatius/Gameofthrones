@@ -39,9 +39,9 @@ export const Contact = (props) => {
           <div className='col-md-8'>
             <div className='row'>
               <div className='section-title'>
-                <h2>Contact Fiona</h2>
+                <h2>Contact Us</h2>
                 <p>
-                  Please fill out the form below to send her an email.
+                  Please fill out the form below.
                 </p>
               </div>
               <form name='sentMessage' validate onSubmit={handleSubmit}>
@@ -81,7 +81,7 @@ export const Contact = (props) => {
                     id='message'
                     className='form-control'
                     rows='4'
-                    placeholder='Message to fiona'
+                    placeholder='Message'
                     required
                     onChange={handleChange}
                   ></textarea>
@@ -149,7 +149,7 @@ export const Contact = (props) => {
       <div id='footer'>
         <div className='container text-center'>
           <p>
-            &copy; 2021 All about Fiona Princess. Design by{' '}
+            &copy; 2021 Game of Thrones. Design by{' '}
             <a href='http://www.github.com/jeniferignatius' rel='nofollow'>
               jeniferignatius
             </a>
